@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; 
+  background:#e3f9ff
+}
+.container{
+  width:100%;
+  height:100vh;
+}
+.calculator{
+  background:#205b7a;
+  padding:20px;
+  border-radius:10px;
+}
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(7, 5, 5);
+  border-radius: 9px;
+  cursor: pointer;
+  justify-content: flex-end;
+  background: #a2bbcf;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    box-shadow: none;
+    border: 2px solid rgb(9, 6, 6);
+    border-radius: 5px;
+}
